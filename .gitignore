@@ -40,3 +40,5 @@ __pycache__/
 
 # Copilot instructions (personal)
 .github/copilot-instructions.md
+.vercel
+.env*.local
