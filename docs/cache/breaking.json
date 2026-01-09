@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "title": "Zcash devs unveil ‘cashZ’ wallet after exiting Electric Coin Co",
+      "link": "<![CDATA[https://cointelegraph.com/news/zcash-developers-unveil-new-wallet-cashz-hours-after-exiting-electric-coin-co?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "description": "Employees who left the Electric Coin Company en masse on Wednesday are launching a new Zcash wallet, citing the need to return to cypherpunk principles and faster scaling.",
+      "pubDate": "2026-01-09T03:17:18.000Z",
+      "source": "CoinTelegraph",
+      "sourceKey": "cointelegraph",
+      "category": "general",
+      "timeAgo": "17m ago"
+    },
+    {
+      "title": "Truebit&#8217;s native token TRU plunges 99.9% after $26 million exploit",
+      "link": "https://www.theblock.co/post/384861/truebit-26-million-exploit?utm_source=rss&amp;utm_medium=rss",
+      "description": "Ethereum-based Truebit suffered a $26.6 million exploit that reportedly targeted a vulnerability in a smart contract deployed five years ago.",
+      "pubDate": "2026-01-09T03:03:45.000Z",
+      "source": "The Block",
+      "sourceKey": "theblock",
+      "category": "general",
+      "timeAgo": "30m ago"
+    },
+    {
+      "title": "Optimism floats OP buyback proposal using Superchain revenue",
+      "link": "<![CDATA[https://cointelegraph.com/news/optimism-floats-op-buyback-proposal-using-superchain-revenue?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "description": "A new plan would tie OP token value to network performance by using half of all Superchain fee revenue for systematic repurchases.",
+      "pubDate": "2026-01-09T02:55:41.000Z",
+      "source": "CoinTelegraph",
+      "sourceKey": "cointelegraph",
+      "category": "general",
+      "timeAgo": "38m ago"
+    },
+    {
       "title": "Global sanctions fuel record flow to illicit crypto addresses",
       "link": "<![CDATA[https://cointelegraph.com/news/sanctions-illicit-crypto-transactions-record-2025?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "description": "The Global Sanctions Inflation Index estimated there were just under 80,000 total sanctioned entities and persons globally as of May 2025.",
@@ -8,7 +38,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "17m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Bitcoin to hit $2.9M by 2050 as it muscles into global trade: VanEck",
@@ -18,7 +48,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "27m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Iran’s Internet Traffic Drops to &#39;Near Zero&#39; as Protests Intensify",
@@ -28,7 +58,7 @@
       "source": "Decrypt",
       "sourceKey": "decrypt",
       "category": "general",
-      "timeAgo": "42m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Trump Rules Out Pardon for FTX Founder Sam Bankman-Fried: NYT",
@@ -38,7 +68,7 @@
       "source": "Decrypt",
       "sourceKey": "decrypt",
       "category": "general",
-      "timeAgo": "58m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Bitcoin holds near $91,000 as market awaits Trump tariff ruling: Asia Morning Briefing",
@@ -49,35 +79,16 @@
       "sourceKey": "coindesk",
       "category": "general",
       "timeAgo": "1h ago"
-    },
-    {
-      "title": "Coinbase lands 2nd ‘buy’ rating in a week, with BofA seeing 38% upside",
-      "link": "<![CDATA[https://cointelegraph.com/news/bank-of-america-upgrades-coinbase-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "Bank of America has upgraded Coinbase's rating on reversing short interest and tax-loss harvesting, while the exchange is broadening its vision to put the financial system onchain.",
-      "pubDate": "2026-01-09T01:33:26.000Z",
-      "source": "CoinTelegraph",
-      "sourceKey": "cointelegraph",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Revived NY bill targets sports, politics and death prediction markets",
-      "link": "<![CDATA[https://cointelegraph.com/news/new-york-bill-limit-sports-politics-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "New York lawmakers will soon review a bill that seeks to ban certain sports and political event contracts in the state, among others.",
-      "pubDate": "2026-01-09T01:30:47.000Z",
-      "source": "CoinTelegraph",
-      "sourceKey": "cointelegraph",
-      "category": "general",
-      "timeAgo": "1h ago"
     }
   ],
-  "totalCount": 7,
+  "totalCount": 8,
   "sources": [
     "CoinTelegraph",
+    "The Block",
     "Decrypt",
     "CoinDesk"
   ],
-  "fetchedAt": "2026-01-09T02:43:16.658Z",
-  "cachedAt": "2026-01-09T02:43:05.000Z",
+  "fetchedAt": "2026-01-09T03:34:29.136Z",
+  "cachedAt": "2026-01-09T03:34:15.000Z",
   "source": "failsafe-cache"
 }
