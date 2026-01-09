@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "title": "Bitcoin ETF optimism fades as three-day outflows streak erases early-month gains",
+      "link": "https://www.coindesk.com/markets/2026/01/09/bitcoin-etf-optimism-fades-as-three-day-outflows-streak-erases-early-month-gains",
+      "description": "Bitcoin ETFs have registered a net outflow of over $1 billion in three days.",
+      "pubDate": "2026-01-09T06:52:19.000Z",
+      "source": "CoinDesk",
+      "sourceKey": "coindesk",
+      "category": "general",
+      "timeAgo": "17m ago"
+    },
+    {
+      "title": "Iran is cut off from the internet: Here’s how crypto could still work",
+      "link": "<![CDATA[https://cointelegraph.com/news/iran-cut-internet-could-citizens-still-use-crypto?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "description": "Protests began in Iran in response to worsening economic conditions and as the Iranian rial hit record lows against the US dollar.",
+      "pubDate": "2026-01-09T06:24:49.000Z",
+      "source": "CoinTelegraph",
+      "sourceKey": "cointelegraph",
+      "category": "general",
+      "timeAgo": "44m ago"
+    },
+    {
       "title": "Crypto market crash in October marked end of ‘easy yield’ era: BitMEX",
       "link": "<![CDATA[https://cointelegraph.com/news/october-crypto-crash-ended-easy-yield-era-bitmex?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "description": "BitMEX says the era of easy money via arbitrage trades likely died in the October crash, as a liquidation spiral left many market makers naked.",
@@ -8,7 +28,17 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "6m ago"
+      "timeAgo": "1h ago"
+    },
+    {
+      "title": "Colombia&#8217;s tax authority mandates crypto exchanges to submit user data: report",
+      "link": "https://www.theblock.co/post/384876/colombia-tax-reporting-crypto?utm_source=rss&amp;utm_medium=rss",
+      "description": "This new requirement aims at preventing tax evasion and enhancing transparency in the local digital asset sector.",
+      "pubDate": "2026-01-09T06:01:15.000Z",
+      "source": "The Block",
+      "sourceKey": "theblock",
+      "category": "general",
+      "timeAgo": "1h ago"
     },
     {
       "title": "Australian Regulator Flags Grok in Rising AI Image Abuse Complaints",
@@ -18,7 +48,7 @@
       "source": "Decrypt",
       "sourceKey": "decrypt",
       "category": "general",
-      "timeAgo": "13m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Builders behind popular Zcash wallet Zashi to launch new startup 'cashZ'",
@@ -28,7 +58,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "40m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Masked Gunmen Tie Up Woman in France, Steal Crypto USB",
@@ -38,7 +68,7 @@
       "source": "Decrypt",
       "sourceKey": "decrypt",
       "category": "general",
-      "timeAgo": "54m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Stablecoin flows could touch $56T by 2030: Bloomberg",
@@ -48,47 +78,17 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "55m ago"
-    },
-    {
-      "title": "Truebit token crashes 99.9% after hacker drains $26.6 million in ether",
-      "link": "https://www.coindesk.com/markets/2026/01/09/truebit-token-tru-crashes-99-9-after-usd26-6m-exploit-drains-8-535-eth",
-      "description": "The attack exploited a flaw in an older smart contract, allowing the attacker to buy TRU at no cost and sell it back to extract ether.",
-      "pubDate": "2026-01-09T05:09:37.000Z",
-      "source": "CoinDesk",
-      "sourceKey": "coindesk",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "XRP slips to $2.12 after liquidations clear both sides of the futures book",
-      "link": "https://www.coindesk.com/markets/2026/01/09/xrp-slips-to-usd2-12-after-liquidations-clear-both-sides-of-the-futures-book",
-      "description": "Traders absorbed a two-step liquidation reset that left price trapped between $2.07 support and $2.17 resistance.",
-      "pubDate": "2026-01-09T04:52:25.000Z",
-      "source": "CoinDesk",
-      "sourceKey": "coindesk",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Consensys-backed SharpLink stakes $170 million in ETH on Linea",
-      "link": "https://www.theblock.co/post/384870/sharplink-stakes-eth-linea?utm_source=rss&amp;utm_medium=rss",
-      "description": "The latest deployment builds on its previously disclosed plan to stake $200 million in ETH across Linea and affiliated restaking partners.",
-      "pubDate": "2026-01-09T04:51:02.000Z",
-      "source": "The Block",
-      "sourceKey": "theblock",
-      "category": "general",
       "timeAgo": "1h ago"
     }
   ],
   "totalCount": 8,
   "sources": [
-    "CoinTelegraph",
-    "Decrypt",
     "CoinDesk",
-    "The Block"
+    "CoinTelegraph",
+    "The Block",
+    "Decrypt"
   ],
-  "fetchedAt": "2026-01-09T06:09:41.660Z",
-  "cachedAt": "2026-01-09T06:09:23.000Z",
+  "fetchedAt": "2026-01-09T07:09:38.072Z",
+  "cachedAt": "2026-01-09T07:09:18.000Z",
   "source": "failsafe-cache"
 }
