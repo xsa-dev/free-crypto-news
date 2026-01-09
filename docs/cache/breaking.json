@@ -1,6 +1,36 @@
 {
   "articles": [
     {
+      "title": "Coinbase lands 2nd ‘buy’ rating in a week, with BofA seeing 38% upside",
+      "link": "<![CDATA[https://cointelegraph.com/news/bank-of-america-upgrades-coinbase-buy?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "description": "Bank of America has upgraded Coinbase's rating on reversing short interest and tax-loss harvesting, while the exchange is broadening its vision to put the financial system onchain.",
+      "pubDate": "2026-01-09T01:33:26.000Z",
+      "source": "CoinTelegraph",
+      "sourceKey": "cointelegraph",
+      "category": "general",
+      "timeAgo": "1m ago"
+    },
+    {
+      "title": "Revived NY bill targets sports, politics and death prediction markets",
+      "link": "<![CDATA[https://cointelegraph.com/news/new-york-bill-limit-sports-politics-prediction-markets?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "description": "New York lawmakers will soon review a bill that seeks to ban certain sports and political event contracts in the state, among others.",
+      "pubDate": "2026-01-09T01:30:47.000Z",
+      "source": "CoinTelegraph",
+      "sourceKey": "cointelegraph",
+      "category": "general",
+      "timeAgo": "3m ago"
+    },
+    {
+      "title": "Cathie Wood says US gov&#8217;t may &#8216;start buying&#8217; to stock national bitcoin reserve",
+      "link": "https://www.theblock.co/post/384854/cathie-wood-us-national-bitcoin-reserve?utm_source=rss&amp;utm_medium=rss",
+      "description": "The founder of ARK Invest said crypto was 'part of the reason [Trump] won the presidency,' and could be a politically salient midterm topic.",
+      "pubDate": "2026-01-09T00:39:09.000Z",
+      "source": "The Block",
+      "sourceKey": "theblock",
+      "category": "general",
+      "timeAgo": "55m ago"
+    },
+    {
       "title": "Wall Street, Crypto Leaders Make &#39;Progress&#39; on Crypto Bill in Private Meeting: Sources",
       "link": "https://decrypt.co/354064/wall-street-crypto-market-structure-bill-private-meeting",
       "description": "Leaders of a major Wall Street trade group and DeFi-focused crypto leaders are trying to hash out key disagreements before the market structure bill faces a do-or-die Senate vote next week.",
@@ -8,36 +38,16 @@
       "source": "Decrypt",
       "sourceKey": "decrypt",
       "category": "general",
-      "timeAgo": "46m ago"
-    },
-    {
-      "title": "Trump says he won't rescue Sam Bankman-Fried with pardon",
-      "link": "https://www.coindesk.com/policy/2026/01/08/trump-says-he-won-t-rescue-sam-bankman-fried-with-pardon",
-      "description": "The president told the New York Times he won't pardon ex-FTX CEO SBF, nor will he be granting help to Sean Combs or Venezuela's Nicolás Maduro.",
-      "pubDate": "2026-01-08T22:43:14.000Z",
-      "source": "CoinDesk",
-      "sourceKey": "coindesk",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Trump Says He Won’t Pardon Sam Bankman-Fried",
-      "link": "https://bitcoinmagazine.com/news/trump-says-he-wont-pardon-bankman-fried",
-      "description": "Bitcoin Magazine\n\nTrump Says He Won’t Pardon Sam Bankman-Fried\nPresident Donald Trump said he will not pardon former FTX CEO Sam Bankman-Fried, rejecting clemency for the convicted crypto executive.\nT",
-      "pubDate": "2026-01-08T22:24:20.000Z",
-      "source": "Bitcoin Magazine",
-      "sourceKey": "bitcoinmagazine",
-      "category": "bitcoin",
       "timeAgo": "1h ago"
     }
   ],
-  "totalCount": 3,
+  "totalCount": 4,
   "sources": [
-    "Decrypt",
-    "CoinDesk",
-    "Bitcoin Magazine"
+    "CoinTelegraph",
+    "The Block",
+    "Decrypt"
   ],
-  "fetchedAt": "2026-01-09T00:24:19.647Z",
-  "cachedAt": "2026-01-09T00:24:09.000Z",
+  "fetchedAt": "2026-01-09T01:34:46.779Z",
+  "cachedAt": "2026-01-09T01:34:32.000Z",
   "source": "failsafe-cache"
 }
