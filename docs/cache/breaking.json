@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "Wall Street, Crypto Leaders Make &#39;Progress&#39; on Crypto Bill in Private Meeting: Sources",
+      "link": "https://decrypt.co/354064/wall-street-crypto-market-structure-bill-private-meeting",
+      "description": "Leaders of a major Wall Street trade group and DeFi-focused crypto leaders are trying to hash out key disagreements before the market structure bill faces a do-or-die Senate vote next week.",
+      "pubDate": "2026-01-08T23:37:54.000Z",
+      "source": "Decrypt",
+      "sourceKey": "decrypt",
+      "category": "general",
+      "timeAgo": "46m ago"
+    },
+    {
       "title": "Trump says he won't rescue Sam Bankman-Fried with pardon",
       "link": "https://www.coindesk.com/policy/2026/01/08/trump-says-he-won-t-rescue-sam-bankman-fried-with-pardon",
       "description": "The president told the New York Times he won't pardon ex-FTX CEO SBF, nor will he be granting help to Sean Combs or Venezuela's Nicolás Maduro.",
@@ -8,7 +18,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "22m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Trump Says He Won’t Pardon Sam Bankman-Fried",
@@ -18,97 +28,16 @@
       "source": "Bitcoin Magazine",
       "sourceKey": "bitcoinmagazine",
       "category": "bitcoin",
-      "timeAgo": "41m ago"
-    },
-    {
-      "title": "Nexo to offer zero-interest crypto lending for BTC and ETH holders",
-      "link": "<![CDATA[https://cointelegraph.com/news/nexo-zero-interest-crypto-btc-eth-holders?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "The offering expands Nexo’s structured lending products to Bitcoin and Ether holders amid a broader recovery in crypto-backed lending.",
-      "pubDate": "2026-01-08T22:03:07.000Z",
-      "source": "CoinTelegraph",
-      "sourceKey": "cointelegraph",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Ethereum Treasury Firm SharpLink Stakes $170 Million of ETH on Linea",
-      "link": "https://decrypt.co/354058/ethereum-treasury-firm-sharplink-gaming-stakes-170-million-eth-linea",
-      "description": "Publicly traded Ethereum treasury firm SharpLink Gaming staked $170 million worth of ETH on Ethereum layer-2 scaling network, Linea.",
-      "pubDate": "2026-01-08T21:52:16.000Z",
-      "source": "Decrypt",
-      "sourceKey": "decrypt",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Boston Dynamics Unveils First Commercial Atlas Humanoid Robot",
-      "link": "https://decrypt.co/354048/boston-dynamics-unveils-first-commercial-atlas-humanoid-robot",
-      "description": "Boston Dynamics said manufacturing on its humanoid Atlas robots will begin immediately, with all 2026 deployments already reserved.",
-      "pubDate": "2026-01-08T21:45:13.000Z",
-      "source": "Decrypt",
-      "sourceKey": "decrypt",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "CFTC issues no-action letter to Bitnomial, clearing way for event contracts",
-      "link": "<![CDATA[https://cointelegraph.com/news/cftc-issues-no-action-letter-to-bitnomial-clearing-way-for-event-contracts?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "The no-action letter comes amid growing acceptance by US regulators of prediction-style markets and event contracts during an election year.",
-      "pubDate": "2026-01-08T21:42:49.000Z",
-      "source": "CoinTelegraph",
-      "sourceKey": "cointelegraph",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Bitnomial wins U.S. regulator's nod on prediction markets push, joins growing crowd",
-      "link": "https://www.coindesk.com/policy/2026/01/08/bitnomial-wins-u-s-regulator-s-nod-on-prediction-markets-push-joins-growing-crowd",
-      "description": "U.S. derivatives platform and clearinghouse is focusing on prediction contracts targeted at digital assets movements and economic indicators.",
-      "pubDate": "2026-01-08T21:37:08.000Z",
-      "source": "CoinDesk",
-      "sourceKey": "coindesk",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Donald Trump will not consider pardon for Sam Bankman-Fried: NYT",
-      "link": "<![CDATA[https://cointelegraph.com/news/donald-trump-no-pardon-sam-bankman-fried?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "The US president reportedly said he had no intention of pardoning the former FTX CEO, and defended his family’s connections to the crypto industry.",
-      "pubDate": "2026-01-08T21:35:30.000Z",
-      "source": "CoinTelegraph",
-      "sourceKey": "cointelegraph",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Myriad Moves: Traders Bet on Zcash Rebound, But Aren&#39;t Buying Another Bitcoin All-Time High",
-      "link": "https://decrypt.co/354044/myriad-moves-traders-bet-zcash-rebound-arent-buying-bitcoin-high",
-      "description": "Top markets on Myriad this week include predictions on a new Bitcoin all-time high, Ethereum’s next move, and whether Zcash will bounce back.",
-      "pubDate": "2026-01-08T21:17:38.000Z",
-      "source": "Decrypt",
-      "sourceKey": "decrypt",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Optimism Foundation Proposes Using 50% of Revenue for Buybacks",
-      "link": "https://thedefiant.io/news/blockchains/optimism-foundation-proposes-using-50-of-revenue-for-buybacks",
-      "pubDate": "2026-01-08T21:07:14.000Z",
-      "source": "The Defiant",
-      "sourceKey": "defiant",
-      "category": "defi",
       "timeAgo": "1h ago"
     }
   ],
-  "totalCount": 10,
+  "totalCount": 3,
   "sources": [
-    "CoinDesk",
-    "Bitcoin Magazine",
-    "CoinTelegraph",
     "Decrypt",
-    "The Defiant"
+    "CoinDesk",
+    "Bitcoin Magazine"
   ],
-  "fetchedAt": "2026-01-08T23:05:58.923Z",
-  "cachedAt": "2026-01-08T23:05:42.000Z",
+  "fetchedAt": "2026-01-09T00:24:19.647Z",
+  "cachedAt": "2026-01-09T00:24:09.000Z",
   "source": "failsafe-cache"
 }
