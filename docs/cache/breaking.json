@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "Bitfinex whales dump BTC longs as $135K Bitcoin price target reemerges",
+      "link": "<![CDATA[https://cointelegraph.com/news/bitfinex-whales-dump-btc-longs-135k-bitcoin-price-target?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "description": "Bitcoin whales began repeating a classic bull signal as they took BTC long positions off the table after a year of declining overall market exposure.",
+      "pubDate": "2026-01-10T17:13:28.000Z",
+      "source": "CoinTelegraph",
+      "sourceKey": "cointelegraph",
+      "category": "general",
+      "timeAgo": "54m ago"
+    },
+    {
       "title": "The Senate moves toward a market structure vote: State of Crypto",
       "link": "https://www.coindesk.com/policy/2026/01/10/the-senate-moves-toward-a-market-structure-vote-state-of-crypto",
       "description": "Lawmakers will (finally) vote on a market structure bill next week.",
@@ -8,7 +18,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "5m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Tennessee orders Kalshi, Polymarket and Crypto.com to cease sports betting contracts",
@@ -18,24 +28,15 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "14m ago"
-    },
-    {
-      "title": "Brazilian exchange Mercado Bitcoin outlines 6 crypto trends shaping markets in 2026",
-      "link": "https://www.coindesk.com/business/2026/01/10/brazilian-exchange-mercado-bitcoin-outlines-6-crypto-trends-shaping-markets-in-2026",
-      "description": "The stablecoin sector is expected to grow to $500 billion, while altcoin ETFs are projected to reach $10 billion, driven by regulatory clarity and adoption.",
-      "pubDate": "2026-01-10T15:31:54.000Z",
-      "source": "CoinDesk",
-      "sourceKey": "coindesk",
-      "category": "general",
       "timeAgo": "1h ago"
     }
   ],
   "totalCount": 3,
   "sources": [
+    "CoinTelegraph",
     "CoinDesk"
   ],
-  "fetchedAt": "2026-01-10T17:05:39.831Z",
-  "cachedAt": "2026-01-10T17:05:16.000Z",
+  "fetchedAt": "2026-01-10T18:07:42.148Z",
+  "cachedAt": "2026-01-10T18:07:26.000Z",
   "source": "failsafe-cache"
 }
