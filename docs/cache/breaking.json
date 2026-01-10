@@ -1,21 +1,32 @@
 {
   "articles": [
     {
-      "title": "A16z raises $15B, says crypto a 'key' to America winning next 100 years",
-      "link": "<![CDATA[https://cointelegraph.com/news/a16z-raises-15-billion-says-crypto-crucial-to-americas-future?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "Crypto remains a key technology for maintaining America’s technological edge, according to a16z, which has raised another $15 billion to back American-aligned tech investments.",
-      "pubDate": "2026-01-10T02:56:33.000Z",
+      "title": "Anti-DeFi group runs ads urging public to pressure Senators on crypto bill: Report",
+      "link": "<![CDATA[https://cointelegraph.com/news/anti-defi-group-runs-ads-to-strip-defi-from-crypto-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "description": "A series of ads reportedly aired on Fox News, calling on the public to contact their senators to remove DeFi provisions from the CLARITY Act bill.",
+      "pubDate": "2026-01-10T05:27:05.000Z",
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "1h ago"
+      "timeAgo": "41m ago"
+    },
+    {
+      "title": "Asset manager VanEck explains how one bitcoin could be worth $2.9 million by 2050",
+      "link": "https://www.coindesk.com/markets/2026/01/09/asset-manager-vaneck-explains-how-one-bitcoin-could-be-worth-usd2-9-million-by-2050",
+      "description": "The asset manager’s base case assumes bitcoin gains traction as a settlement tool and reserve asset over the next 25 years.",
+      "pubDate": "2026-01-10T05:16:40.000Z",
+      "source": "CoinDesk",
+      "sourceKey": "coindesk",
+      "category": "general",
+      "timeAgo": "51m ago"
     }
   ],
-  "totalCount": 1,
+  "totalCount": 2,
   "sources": [
-    "CoinTelegraph"
+    "CoinTelegraph",
+    "CoinDesk"
   ],
-  "fetchedAt": "2026-01-10T04:15:03.353Z",
-  "cachedAt": "2026-01-10T04:14:42.000Z",
+  "fetchedAt": "2026-01-10T06:08:13.423Z",
+  "cachedAt": "2026-01-10T06:08:01.000Z",
   "source": "failsafe-cache"
 }
