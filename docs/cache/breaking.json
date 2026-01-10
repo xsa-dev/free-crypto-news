@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "Institutions know a “good” exchange is built for failure",
+      "link": "https://www.coindesk.com/opinion/2026/01/10/institutions-know-a-good-exchange-is-built-for-failure",
+      "description": "A platform's onboarding polish should not be confused for its ability to execute trades and handle immense volumes, argues Bridgeport co-founder and CCO Chris Soriano.",
+      "pubDate": "2026-01-10T15:00:00.000Z",
+      "source": "CoinDesk",
+      "sourceKey": "coindesk",
+      "category": "general",
+      "timeAgo": "5m ago"
+    },
+    {
       "title": "Hundreds of wealthy investors are using crypto to buy real estate in Europe",
       "link": "https://www.coindesk.com/business/2026/01/09/hundreds-of-wealthy-investors-are-using-crypto-to-buy-real-estate-in-europe",
       "description": "Brighty co-founder Nikolay Denisenko, a former lead backend engineer at Revolut, says his startup has brokered over 100 deals for HNWIs to buy apartments in Europe.",
@@ -8,35 +18,14 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "5m ago"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "link": "<![CDATA[https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
-      "pubDate": "2026-01-10T12:58:32.000Z",
-      "source": "CoinTelegraph",
-      "sourceKey": "cointelegraph",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Betterment urges users to ignore ‘unauthorized’ crypto promotion message",
-      "link": "<![CDATA[https://cointelegraph.com/news/betterment-fake-crypto-promotion-triple-returns-warning?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "The message claimed Betterment would “triple” Bitcoin and Ether deposits sent within hours, urging users to transfer $10,000 to crypto wallets.",
-      "pubDate": "2026-01-10T12:42:39.000Z",
-      "source": "CoinTelegraph",
-      "sourceKey": "cointelegraph",
-      "category": "general",
       "timeAgo": "1h ago"
     }
   ],
-  "totalCount": 3,
+  "totalCount": 2,
   "sources": [
-    "CoinDesk",
-    "CoinTelegraph"
+    "CoinDesk"
   ],
-  "fetchedAt": "2026-01-10T14:05:30.718Z",
-  "cachedAt": "2026-01-10T14:05:08.000Z",
+  "fetchedAt": "2026-01-10T15:05:35.683Z",
+  "cachedAt": "2026-01-10T15:05:22.000Z",
   "source": "failsafe-cache"
 }
