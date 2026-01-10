@@ -1,32 +1,21 @@
 {
   "articles": [
     {
-      "title": "Anti-DeFi group runs ads urging public to pressure Senators on crypto bill: Report",
-      "link": "<![CDATA[https://cointelegraph.com/news/anti-defi-group-runs-ads-to-strip-defi-from-crypto-bill?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "A series of ads reportedly aired on Fox News, calling on the public to contact their senators to remove DeFi provisions from the CLARITY Act bill.",
-      "pubDate": "2026-01-10T05:27:05.000Z",
+      "title": "Pump.fun says creator fees ‘may have skewed’ incentives, plans revamp",
+      "link": "<![CDATA[https://cointelegraph.com/news/pumpfun-revamps-creator-fees-fee-sharing-cto-controls?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "description": "Pump.fun is introducing a new creator fee sharing system that lets teams and CTO admins split fees across up to 10 wallets, transfer coin ownership and revoke update authority.",
+      "pubDate": "2026-01-10T07:05:19.000Z",
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
       "timeAgo": "1h ago"
-    },
-    {
-      "title": "Asset manager VanEck explains how one bitcoin could be worth $2.9 million by 2050",
-      "link": "https://www.coindesk.com/markets/2026/01/09/asset-manager-vaneck-explains-how-one-bitcoin-could-be-worth-usd2-9-million-by-2050",
-      "description": "The asset manager’s base case assumes bitcoin gains traction as a settlement tool and reserve asset over the next 25 years.",
-      "pubDate": "2026-01-10T05:16:40.000Z",
-      "source": "CoinDesk",
-      "sourceKey": "coindesk",
-      "category": "general",
-      "timeAgo": "1h ago"
     }
   ],
-  "totalCount": 2,
+  "totalCount": 1,
   "sources": [
-    "CoinTelegraph",
-    "CoinDesk"
+    "CoinTelegraph"
   ],
-  "fetchedAt": "2026-01-10T07:05:58.509Z",
-  "cachedAt": "2026-01-10T07:05:45.000Z",
+  "fetchedAt": "2026-01-10T08:07:12.315Z",
+  "cachedAt": "2026-01-10T08:06:56.000Z",
   "source": "failsafe-cache"
 }
