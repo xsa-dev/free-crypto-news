@@ -2,7 +2,8 @@
   "cointelegraph": [
     "efdfbbfd360284e4",
     "836404465fb3fbe3",
-    "86142a331b831642"
+    "86142a331b831642",
+    "aded2c59dcf16edd"
   ],
   "theblock": [
     "b950244b38ea09a7"
@@ -17,5 +18,8 @@
     "0b2392e600a6aea1",
     "6834c58f3fca6125",
     "3c9877bdfdd64016"
+  ],
+  "coindesk": [
+    "487c97984dbb3c87"
   ]
 }
