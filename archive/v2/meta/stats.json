@@ -1,17 +1,28 @@
 {
   "version": "2.1.0",
-  "rebuilt_at": "2026-01-11T13:42:03.948Z",
-  "total_articles": 162,
-  "total_sources": 6,
-  "total_dates": 4,
-  "first_article": "2026-01-08T11:06:57.000Z",
-  "last_article": "2026-01-11T13:18:24.118Z",
+  "total_articles": 163,
+  "total_fetches": 1,
+  "first_fetch": "2026-01-11T14:11:09.768Z",
+  "last_fetch": "2026-01-11T14:11:09.768Z",
   "daily_counts": {
     "2026-01-08": 50,
     "2026-01-09": 76,
     "2026-01-10": 22,
-    "2026-01-11": 14
+    "2026-01-11": 15
   },
+  "features_used": {
+    "marketData": 1,
+    "onChain": 1,
+    "social": 1,
+    "predictions": 1,
+    "clustering": 1,
+    "reliability": 1
+  },
+  "rebuilt_at": "2026-01-11T13:42:03.948Z",
+  "total_sources": 6,
+  "total_dates": 4,
+  "first_article": "2026-01-08T11:06:57.000Z",
+  "last_article": "2026-01-11T13:18:24.118Z",
   "sources": {
     "coindesk": 46,
     "decrypt": 24,
@@ -58,5 +69,12 @@
     "sources": 6,
     "tickers": 32,
     "dates": 4
+  },
+  "latest_market": {
+    "btc_price": 90811,
+    "eth_price": 3109.74,
+    "fear_greed": 29,
+    "total_tvl": null,
+    "timestamp": "2026-01-11T14:11:04.722Z"
   }
 }
