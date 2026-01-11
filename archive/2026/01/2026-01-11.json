@@ -1,8 +1,18 @@
 {
   "date": "2026-01-11",
-  "fetchedAt": "2026-01-11T00:37:43.000Z",
+  "fetchedAt": "2026-01-11T06:11:17.000Z",
   "articleCount": 50,
   "articles": [
+    {
+      "title": "Ethereum sentiment mirrors levels seen before ‘major run’: Santiment",
+      "link": "<![CDATA[https://cointelegraph.com/news/ether-sentiment-price-major-run-history-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "description": "Ethereum’s social media sentiment is “kind of reminiscent” of what was seen before its last major run, according to Santiment.",
+      "pubDate": "2026-01-11T03:40:37.000Z",
+      "source": "CoinTelegraph",
+      "sourceKey": "cointelegraph",
+      "category": "general",
+      "timeAgo": "2h ago"
+    },
     {
       "title": "Iran&#8217;s Revolutionary Guard moved $1 billion through UK-registered crypto exchanges, report finds",
       "link": "https://www.theblock.co/post/385006/irans-revolutionary-guard-moved-1-billion-through-uk-registered-crypto-exchanges-report-finds?utm_source=rss&amp;utm_medium=rss",
@@ -11,7 +21,7 @@
       "source": "The Block",
       "sourceKey": "theblock",
       "category": "general",
-      "timeAgo": "2h ago"
+      "timeAgo": "8h ago"
     },
     {
       "title": "Here’s what happened in crypto today",
@@ -21,7 +31,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "3h ago"
+      "timeAgo": "8h ago"
     },
     {
       "title": "Bitcoin mining difficulty falls in first adjustment of 2026",
@@ -31,7 +41,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "3h ago"
+      "timeAgo": "8h ago"
     },
     {
       "title": "Starknet publishes post-mortem report after temporary network outage",
@@ -41,7 +51,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "4h ago"
+      "timeAgo": "10h ago"
     },
     {
       "title": "Robinhood explains building an Ethereum layer-2: 'We wanted the security from Ethereum'",
@@ -51,7 +61,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "5h ago"
+      "timeAgo": "11h ago"
     },
     {
       "title": "Polymarket faces first state-level cease-and-desist from Tennessee, weeks after US relaunch: report",
@@ -61,7 +71,7 @@
       "source": "The Block",
       "sourceKey": "theblock",
       "category": "general",
-      "timeAgo": "5h ago"
+      "timeAgo": "11h ago"
     },
     {
       "title": "Bitcoiners celebrate 17th anniversary of Hal Finney's Bitcoin post",
@@ -71,7 +81,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "6h ago"
+      "timeAgo": "11h ago"
     },
     {
       "title": "Bitfinex whales dump BTC longs as $135K Bitcoin price target reemerges",
@@ -81,7 +91,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "7h ago"
+      "timeAgo": "12h ago"
     },
     {
       "title": "The Senate moves toward a market structure vote: State of Crypto",
@@ -91,7 +101,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "7h ago"
+      "timeAgo": "13h ago"
     },
     {
       "title": "Tennessee orders Kalshi, Polymarket and Crypto.com to cease sports betting contracts",
@@ -101,7 +111,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "7h ago"
+      "timeAgo": "13h ago"
     },
     {
       "title": "XRP ETFs hit record weekly volume as bitcoin, ether funds face $750 million in combined outflows",
@@ -111,7 +121,7 @@
       "source": "The Block",
       "sourceKey": "theblock",
       "category": "general",
-      "timeAgo": "8h ago"
+      "timeAgo": "13h ago"
     },
     {
       "title": "Brazilian exchange Mercado Bitcoin outlines 6 crypto trends shaping markets in 2026",
@@ -121,7 +131,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "9h ago"
+      "timeAgo": "14h ago"
     },
     {
       "title": "Institutions know a “good” exchange is built for failure",
@@ -131,7 +141,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "9h ago"
+      "timeAgo": "15h ago"
     },
     {
       "title": "Hundreds of wealthy investors are using crypto to buy real estate in Europe",
@@ -141,7 +151,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "10h ago"
+      "timeAgo": "16h ago"
     },
     {
       "title": "Betterment urges users to ignore ‘unauthorized’ crypto promotion message",
@@ -151,7 +161,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "11h ago"
+      "timeAgo": "17h ago"
     },
     {
       "title": "Spot Bitcoin ETFs lose $681M in first week of 2026 as risk appetite fades",
@@ -161,7 +171,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "15h ago"
+      "timeAgo": "20h ago"
     },
     {
       "title": "Pump.fun says creator fees ‘may have skewed’ incentives, plans revamp",
@@ -171,7 +181,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "17h ago"
+      "timeAgo": "23h ago"
     },
     {
       "title": "Anti-DeFi group runs ads urging public to pressure Senators on crypto bill: Report",
@@ -181,7 +191,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "19h ago"
+      "timeAgo": "yesterday"
     },
     {
       "title": "Asset manager VanEck explains how one bitcoin could be worth $2.9 million by 2050",
@@ -191,7 +201,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "19h ago"
+      "timeAgo": "yesterday"
     },
     {
       "title": "A16z raises $15B, says crypto a 'key' to America winning next 100 years",
@@ -201,7 +211,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "21h ago"
+      "timeAgo": "yesterday"
     },
     {
       "title": "A16z Crypto Shares Three Crypto Predictions for 2026",
@@ -210,7 +220,7 @@
       "source": "The Defiant",
       "sourceKey": "defiant",
       "category": "defi",
-      "timeAgo": "23h ago"
+      "timeAgo": "yesterday"
     },
     {
       "title": "Stablecoin card adoption will be a 'big theme' of 2026: Dragonfly exec",
@@ -220,7 +230,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "23h ago"
+      "timeAgo": "yesterday"
     },
     {
       "title": "Memecoin Market Cratered More Than 60% in 2025: Report",
@@ -483,16 +493,6 @@
       "link": "https://decrypt.co/354146/crypto-vc-giant-andreessen-horowitz-raises-15-billion-help-america-win",
       "description": "Major crypto investor Andreessen Horowitz raised $15 billion across multiple funds to propel technology bets and help boost America's prospects.",
       "pubDate": "2026-01-09T18:05:52.000Z",
-      "source": "Decrypt",
-      "sourceKey": "decrypt",
-      "category": "general",
-      "timeAgo": "yesterday"
-    },
-    {
-      "title": "BNY Debuts Tokenized Deposits for Institutions and &#39;Digital Natives&#39;",
-      "link": "https://decrypt.co/354136/bny-debuts-tokenized-deposits-institutions-digital-natives",
-      "description": "BNY, the world’s largest custodian bank, signaled that it will begin issuing digital representations of customers’ deposits on the blockchain.",
-      "pubDate": "2026-01-09T17:33:55.000Z",
       "source": "Decrypt",
       "sourceKey": "decrypt",
       "category": "general",
