@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "Ethereum co-founder Vitalik Buterin warns decentralized stablecoins still have deep flaws",
+      "link": "https://www.coindesk.com/tech/2026/01/11/ethereum-co-founder-vitalik-buterin-warns-decentralized-stablecoins-still-have-deep-flaws",
+      "description": "The Ethereum co-founder argues that price benchmarks, oracle security and staking incentives remain unresolved challenges for decentralized stablecoins.",
+      "pubDate": "2026-01-11T13:20:31.000Z",
+      "source": "CoinDesk",
+      "sourceKey": "coindesk",
+      "category": "general",
+      "timeAgo": "44m ago"
+    },
+    {
       "title": "Here’s what happened in crypto today",
       "link": "<![CDATA[https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
@@ -8,7 +18,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "54m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Robinhood explains building an Ethereum layer-2: 'We wanted the security from Ethereum'",
@@ -18,7 +28,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "18h ago"
+      "timeAgo": "19h ago"
     },
     {
       "title": "The Senate moves toward a market structure vote: State of Crypto",
@@ -28,7 +38,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "20h ago"
+      "timeAgo": "21h ago"
     },
     {
       "title": "Anti-DeFi group runs ads urging public to pressure Senators on crypto bill: Report",
@@ -175,16 +185,6 @@
       "timeAgo": "2d ago"
     },
     {
-      "title": "Ethereum treasury firm SharpLink stakes $170M ETH on Linea network",
-      "link": "https://www.coindesk.com/markets/2026/01/09/ethereum-treasury-firm-sharplink-stakes-usd170m-eth-on-linea-network",
-      "description": "The strategy combines native Ethereum staking yield with restaking rewards and incentives from Linea and ether.fi, under a qualified custodian structure.",
-      "pubDate": "2026-01-09T08:32:29.000Z",
-      "source": "CoinDesk",
-      "sourceKey": "coindesk",
-      "category": "general",
-      "timeAgo": "2d ago"
-    },
-    {
       "title": "Consensys-backed SharpLink stakes $170 million in ETH on Linea",
       "link": "https://www.theblock.co/post/384870/sharplink-stakes-eth-linea?utm_source=rss&amp;utm_medium=rss",
       "description": "The latest deployment builds on its previously disclosed plan to stake $200 million in ETH across Linea and affiliated restaking partners.",
@@ -288,19 +288,40 @@
       "source": "Decrypt",
       "sourceKey": "decrypt",
       "category": "general",
-      "timeAgo": "2d ago"
+      "timeAgo": "3d ago"
     }
   ],
   "totalCount": 121,
   "sources": [
-    "CoinTelegraph",
     "CoinDesk",
+    "CoinTelegraph",
     "The Defiant",
     "The Block",
     "Decrypt",
     "Bitcoin Magazine"
   ],
-  "fetchedAt": "2026-01-11T13:13:49.848Z",
-  "cachedAt": "2026-01-11T13:13:43.000Z",
+  "fetchedAt": "2026-01-11T14:05:11.676Z",
+  "lang": "en",
+  "availableLanguages": [
+    "en",
+    "es",
+    "fr",
+    "de",
+    "pt",
+    "ja",
+    "zh-CN",
+    "zh-TW",
+    "ko",
+    "ar",
+    "ru",
+    "it",
+    "nl",
+    "pl",
+    "tr",
+    "vi",
+    "th",
+    "id"
+  ],
+  "cachedAt": "2026-01-11T14:05:05.000Z",
   "source": "failsafe-cache"
 }

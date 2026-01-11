@@ -1,6 +1,16 @@
 {
   "articles": [
     {
+      "title": "Ethereum co-founder Vitalik Buterin warns decentralized stablecoins still have deep flaws",
+      "link": "https://www.coindesk.com/tech/2026/01/11/ethereum-co-founder-vitalik-buterin-warns-decentralized-stablecoins-still-have-deep-flaws",
+      "description": "The Ethereum co-founder argues that price benchmarks, oracle security and staking incentives remain unresolved challenges for decentralized stablecoins.",
+      "pubDate": "2026-01-11T13:20:31.000Z",
+      "source": "CoinDesk",
+      "sourceKey": "coindesk",
+      "category": "general",
+      "timeAgo": "44m ago"
+    },
+    {
       "title": "Ethereum’s future hinges on zero-knowledge proofs, EF director says",
       "link": "https://www.coindesk.com/business/2026/01/11/ethereum-s-future-hinges-on-zero-knowledge-proofs-ef-director-says",
       "description": "In a recent interview with CoinDesk, Ethereum Foundation co-executive director Hsiao-Wei Wang described zero-knowledge as part of Ethereum’s midterm roadmap, pointing to “many amazing breakthroughs” i",
@@ -8,7 +18,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "14m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Here’s what happened in crypto today",
@@ -18,7 +28,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "54m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Russians ask government hotlines whether pensions are paid in crypto",
@@ -31,12 +41,33 @@
       "timeAgo": "1h ago"
     }
   ],
-  "totalCount": 3,
+  "totalCount": 4,
   "sources": [
     "CoinDesk",
     "CoinTelegraph"
   ],
-  "fetchedAt": "2026-01-11T13:14:02.866Z",
-  "cachedAt": "2026-01-11T13:13:43.000Z",
+  "fetchedAt": "2026-01-11T14:05:19.401Z",
+  "lang": "en",
+  "availableLanguages": [
+    "en",
+    "es",
+    "fr",
+    "de",
+    "pt",
+    "ja",
+    "zh-CN",
+    "zh-TW",
+    "ko",
+    "ar",
+    "ru",
+    "it",
+    "nl",
+    "pl",
+    "tr",
+    "vi",
+    "th",
+    "id"
+  ],
+  "cachedAt": "2026-01-11T14:05:05.000Z",
   "source": "failsafe-cache"
 }
