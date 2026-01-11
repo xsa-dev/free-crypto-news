@@ -1,42 +1,21 @@
 {
   "articles": [
     {
-      "title": "Iran&#8217;s Revolutionary Guard moved $1 billion through UK-registered crypto exchanges, report finds",
-      "link": "https://www.theblock.co/post/385006/irans-revolutionary-guard-moved-1-billion-through-uk-registered-crypto-exchanges-report-finds?utm_source=rss&amp;utm_medium=rss",
-      "description": "The vast majority of the transactions were conducted using Tether's USDT stablecoin on the Tron network, the analysis by TRM Labs found.",
-      "pubDate": "2026-01-10T21:59:10.000Z",
-      "source": "The Block",
-      "sourceKey": "theblock",
-      "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Here’s what happened in crypto today",
-      "link": "<![CDATA[https://cointelegraph.com/news/what-happened-in-crypto-today?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "Need to know what happened in crypto today? Here is the latest news on daily trends and events impacting Bitcoin price, blockchain, DeFi, NFTs, Web3 and crypto regulation.",
-      "pubDate": "2026-01-10T21:36:30.000Z",
+      "title": "Ethereum sentiment mirrors levels seen before ‘major run’: Santiment",
+      "link": "<![CDATA[https://cointelegraph.com/news/ether-sentiment-price-major-run-history-santiment?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "description": "Ethereum’s social media sentiment is “kind of reminiscent” of what was seen before its last major run, according to Santiment.",
+      "pubDate": "2026-01-11T03:40:37.000Z",
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "1h ago"
-    },
-    {
-      "title": "Bitcoin mining difficulty falls in first adjustment of 2026",
-      "link": "<![CDATA[https://cointelegraph.com/news/bitcoin-difficulty-falls-first-adjustment-2026?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "The Bitcoin mining difficulty continued to push through to new all-time highs in 2025 amid a turbulent year for the mining industry.",
-      "pubDate": "2026-01-10T21:22:20.000Z",
-      "source": "CoinTelegraph",
-      "sourceKey": "cointelegraph",
-      "category": "general",
-      "timeAgo": "1h ago"
+      "timeAgo": "43m ago"
     }
   ],
-  "totalCount": 3,
+  "totalCount": 1,
   "sources": [
-    "The Block",
     "CoinTelegraph"
   ],
-  "fetchedAt": "2026-01-10T23:05:44.360Z",
-  "cachedAt": "2026-01-10T23:05:27.000Z",
+  "fetchedAt": "2026-01-11T04:24:18.839Z",
+  "cachedAt": "2026-01-11T04:24:02.000Z",
   "source": "failsafe-cache"
 }
