@@ -7,11 +7,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint":  "next lint",
-    "mcp: install": "cd mcp && npm install",
+    "lint": "next lint",
+    "mcp:install": "cd mcp && npm install",
     "mcp:start": "cd mcp && npm start",
-    "mcp: http": "cd mcp && npm run start:http",
-    "mcp:dev": "cd mcp && npm run dev"
+    "mcp:http": "cd mcp && npm run start:http",
+    "mcp:dev": "cd mcp && npm run dev",
+    "i18n:translate": "node scripts/i18n/translate.js",
+    "i18n:validate": "node scripts/i18n/validate.js",
+    "archive:collect": "node scripts/archive/collect.js",
+    "archive:enhanced": "node scripts/archive/collect-enhanced.js",
+    "archive:migrate": "node scripts/archive/migrate.js",
+    "archive:stats": "node scripts/archive/stats.js"
   },
   "keywords": [
     "crypto",

@@ -4,6 +4,8 @@
 
 Get real-time crypto news from 7 major sources with one API call.
 
+> 🌍 **Available in 18 languages:** [中文](locales/README/index.zh-CN.md) | [日本語](locales/README/index.ja-JP.md) | [한국어](locales/README/index.ko-KR.md) | [Español](locales/README/index.es-ES.md) | [Français](locales/README/index.fr-FR.md) | [Deutsch](locales/README/index.de-DE.md) | [Português](locales/README/index.pt-BR.md) | [Русский](locales/README/index.ru-RU.md) | [العربية](locales/README/index.ar.md) | [More...](locales/)
+
 ```bash
 curl https://free-crypto-news.vercel.app/api/news
 ```
@@ -447,6 +449,42 @@ pnpm dev
 
 Open http://localhost:3000/api/news
 
+## Environment Variables
+
+**All environment variables are optional.** The project works out of the box with zero configuration.
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `OPENAI_API_KEY` | - | Enables i18n auto-translation (18 languages) |
+| `OPENAI_PROXY_URL` | `api.openai.com` | Custom OpenAI endpoint |
+| `REDDIT_CLIENT_ID` | - | Enables Reddit social signals |
+| `REDDIT_CLIENT_SECRET` | - | Reddit OAuth secret |
+| `X_AUTH_TOKEN` | - | X/Twitter signals via [XActions](https://github.com/nirholas/XActions) |
+| `ARCHIVE_DIR` | `./archive` | Archive storage path |
+| `API_URL` | Production Vercel | API endpoint for archive collection |
+
+### Feature Flags
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `FEATURE_MARKET` | `true` | Market data (CoinGecko, DeFiLlama) |
+| `FEATURE_ONCHAIN` | `true` | On-chain events (BTC stats, DEX volumes) |
+| `FEATURE_SOCIAL` | `true` | Social signals (Reddit sentiment) |
+| `FEATURE_PREDICTIONS` | `true` | Prediction markets (Polymarket, Manifold) |
+| `FEATURE_CLUSTERING` | `true` | Story clustering & deduplication |
+| `FEATURE_RELIABILITY` | `true` | Source reliability tracking |
+
+### GitHub Secrets (for Actions)
+
+For full functionality, add these secrets to your repository:
+
+```
+OPENAI_API_KEY      # For i18n translations
+REDDIT_CLIENT_ID    # For Reddit data (register at reddit.com/prefs/apps)
+REDDIT_CLIENT_SECRET
+X_AUTH_TOKEN        # For X/Twitter (from XActions login)
+```
+
 ---
 
 # Tech Stack
@@ -462,11 +500,12 @@ Open http://localhost:3000/api/news
 
 PRs welcome! Ideas:
 
-- [ ] More news sources
-- [ ] Sentiment analysis
-- [ ] Topic classification
+- [ ] More news sources (Korean, Chinese, Japanese, Spanish)
+- [x] ~~Sentiment analysis~~ ✅ Done
+- [x] ~~Topic classification~~ ✅ Done
 - [ ] WebSocket real-time feed
-- [ ] Go / Rust / Ruby SDKs
+- [ ] Rust / Ruby SDKs
+- [ ] Mobile app (React Native)
 
 ---
 
@@ -713,6 +752,323 @@ await fetch('https://free-crypto-news.vercel.app/api/push', {
 ```
 
 See full widget examples in [`/widget`](./widget)
+
+---
+
+# 🗄️ Archive v2: The Definitive Crypto News Record
+
+We're building the most comprehensive open historical archive of crypto news. Every headline. Every hour. Forever.
+
+## What's in v2
+
+| Feature | Description |
+|---------|-------------|
+| **Hourly collection** | Every hour, not every 6 hours |
+| **Append-only** | Never overwrite - every unique article preserved |
+| **Deduplication** | Content-addressed IDs prevent duplicates |
+| **Entity extraction** | Auto-extracted tickers ($BTC, $ETH, etc.) |
+| **Named entities** | People, companies, protocols identified |
+| **Sentiment scoring** | Every headline scored positive/negative/neutral |
+| **Market context** | BTC/ETH prices + Fear & Greed at capture time |
+| **Content hashing** | SHA256 for integrity verification |
+| **Hourly snapshots** | What was trending each hour |
+| **Indexes** | Fast lookups by source, ticker, date |
+| **JSONL format** | Streamable, append-friendly, grep-able |
+
+## V2 API Endpoints
+
+```bash
+# Get enriched articles with all metadata
+curl "https://free-crypto-news.vercel.app/api/archive/v2?limit=20"
+
+# Filter by ticker
+curl "https://free-crypto-news.vercel.app/api/archive/v2?ticker=BTC"
+
+# Filter by sentiment
+curl "https://free-crypto-news.vercel.app/api/archive/v2?sentiment=positive"
+
+# Get archive statistics
+curl "https://free-crypto-news.vercel.app/api/archive/v2?stats=true"
+
+# Get trending tickers (last 24h)
+curl "https://free-crypto-news.vercel.app/api/archive/v2?trending=true"
+
+# Get market history for a month
+curl "https://free-crypto-news.vercel.app/api/archive/v2?market=2026-01"
+```
+
+## Archive Directory Structure
+
+```
+archive/
+  v2/
+    articles/           # JSONL files, one per month
+      2026-01.jsonl     # All articles from January 2026
+    snapshots/          # Hourly trending state
+      2026/01/11/
+        00.json         # What was trending at midnight
+        01.json         # What was trending at 1am
+        ...
+    market/             # Price/sentiment history
+      2026-01.jsonl     # Market data for January 2026
+    index/              # Fast lookups
+      by-source.json    # Article IDs grouped by source
+      by-ticker.json    # Article IDs grouped by ticker
+      by-date.json      # Article IDs grouped by date
+    meta/
+      schema.json       # Schema version and definition
+      stats.json        # Running statistics
+```
+
+## Enriched Article Schema
+
+```json
+{
+  "id": "a1b2c3d4e5f6g7h8",
+  "schema_version": "2.0.0",
+  "title": "BlackRock adds $900M BTC...",
+  "link": "https://...",
+  "canonical_link": "https://... (normalized)",
+  "description": "...",
+  "source": "CoinTelegraph",
+  "source_key": "cointelegraph",
+  "category": "bitcoin",
+  "pub_date": "2026-01-08T18:05:00.000Z",
+  "first_seen": "2026-01-08T18:10:00.000Z",
+  "last_seen": "2026-01-08T23:05:00.000Z",
+  "fetch_count": 5,
+  "tickers": ["BTC"],
+  "entities": {
+    "people": ["Larry Fink"],
+    "companies": ["BlackRock"],
+    "protocols": ["Bitcoin"]
+  },
+  "tags": ["institutional", "price"],
+  "sentiment": {
+    "score": 0.65,
+    "label": "positive",
+    "confidence": 0.85
+  },
+  "market_context": {
+    "btc_price": 94500,
+    "eth_price": 3200,
+    "fear_greed_index": 65
+  },
+  "content_hash": "h8g7f6e5d4c3b2a1",
+  "meta": {
+    "word_count": 23,
+    "has_numbers": true,
+    "is_breaking": false,
+    "is_opinion": false
+  }
+}
+```
+
+---
+
+# 🚀 Roadmap
+
+Building the definitive open crypto intelligence platform.
+
+## ✅ Complete
+
+- [x] Real-time aggregation from 7 sources
+- [x] REST API with multiple endpoints
+- [x] RSS/Atom feeds
+- [x] SDKs (Python, JavaScript, TypeScript, Go, PHP, React)
+- [x] MCP server for AI assistants
+- [x] Embeddable widgets
+- [x] Archive v2 with enrichment
+- [x] Hourly archive collection workflow
+- [x] Entity/ticker extraction
+- [x] Sentiment analysis
+- [x] Market context capture (CoinGecko + DeFiLlama)
+- [x] Story clustering engine
+- [x] Source reliability tracking
+- [x] On-chain event tracking (Bitcoin, DeFi TVL, DEX volumes, bridges)
+- [x] X/Twitter social signals via [XActions](https://github.com/nirholas/XActions) (no API key needed!)
+- [x] Prediction market tracking (Polymarket, Manifold)
+- [x] AI training data exporter
+- [x] Analytics engine with daily/weekly digests
+
+## 🔨 In Progress
+
+- [ ] Full test of enhanced collection pipeline
+- [ ] LunarCrush / Santiment social metrics
+
+## 📋 Short-Term (Q1 2026)
+
+### Data Enrichment
+- [ ] Full article extraction (where legally permissible)
+- [ ] AI-powered summarization (1-sentence, 1-paragraph)
+- [ ] Advanced entity extraction with AI
+- [ ] Event classification (funding, hack, regulation, etc.)
+- [ ] Claim extraction (factual claims as structured data)
+- [ ] Relationship extraction (who did what to whom)
+
+### Multi-Lingual
+- [x] i18n workflow with 18 languages (auto-translation via OpenAI)
+- [x] Translated README and docs
+- [ ] Korean sources (Crypto primers, etc.)
+- [ ] Chinese sources (8btc, etc.)
+- [ ] Japanese sources
+- [ ] Spanish sources
+
+### Real-Time Features
+- [ ] WebSocket streaming
+- [ ] Faster webhook delivery
+- [ ] Real-time alert conditions
+
+## 📋 Medium-Term (Q2-Q3 2026)
+
+### Intelligence Layer (Partial - In Progress)
+- [x] Story clustering (group related articles) ✅
+- [ ] Headline mutation tracking (detect changes)
+- [x] Source first-mover tracking (who breaks news) ✅
+- [x] Coordinated narrative detection ✅
+- [ ] Prediction tracking & accuracy scoring
+- [x] Anomaly detection (unusual coverage patterns) ✅
+
+### Social Intelligence (Partial - In Progress)
+- [x] X/Twitter integration via XActions (browser automation - FREE!) ✅
+- [ ] Discord public channel monitoring
+- [ ] Telegram channel aggregation
+- [ ] Influencer reliability scoring
+
+### On-Chain Correlation (Partial - In Progress)
+- [ ] Link news to on-chain events
+- [x] Whale movement correlation (structure ready) ✅
+- [x] DEX volume correlation ✅
+- [x] Bridge volume tracking ✅
+- [ ] Coverage gap analysis (what's NOT being covered)
+
+### AI Products
+- [ ] **The Oracle**: Natural language queries over all data
+- [ ] **The Brief**: Personalized AI-generated digests
+- [ ] **The Debate**: Multi-perspective synthesis
+- [ ] **The Counter**: Fact-checking as a service
+
+## 📋 Long-Term (2027+)
+
+### Research Infrastructure
+- [ ] Causal inference engine
+- [ ] Backtesting infrastructure
+- [ ] Hypothesis testing platform
+- [ ] Academic access program
+
+### Trust & Verification
+- [ ] Content-addressed storage (IPFS-style)
+- [ ] Periodic merkle roots anchored to blockchain
+- [ ] Deep fake / AI content detection
+- [ ] Source network forensics
+
+### Formats & Access (Partial - In Progress)
+- [ ] Parquet exports for analytics
+- [ ] SQLite monthly exports
+- [x] Embedding vectors for semantic search (export ready) ✅
+- [x] LLM fine-tuning ready datasets ✅
+
+### The Meta-Play
+- [ ] Industry-standard reference for disputes
+- [ ] Academic citation network
+- [ ] AI training data licensing
+- [ ] Prediction registry (timestamped predictions with outcomes)
+
+---
+
+## 📂 Archive v2 Data Structure
+
+The enhanced archive system captures comprehensive crypto intelligence:
+
+```
+archive/v2/
+├── articles/              # JSONL, append-only articles
+│   └── 2026-01.jsonl     # ~50 new articles per hour
+├── market/               # Full market snapshots
+│   └── 2026-01.jsonl     # CoinGecko + DeFiLlama data
+├── onchain/              # On-chain events
+│   └── 2026-01.jsonl     # BTC stats, DEX volumes, bridges
+├── social/               # Social signals
+│   └── 2026-01.jsonl     # Reddit sentiment, trending
+├── predictions/          # Prediction markets
+│   └── 2026-01.jsonl     # Polymarket + Manifold odds
+├── snapshots/            # Hourly trending snapshots
+│   └── 2026/01/11/
+│       └── 08.json       # Complete state at 08:00 UTC
+├── analytics/            # Generated insights
+│   ├── digest-2026-01-11.json
+│   ├── narrative-momentum.json
+│   └── coverage-patterns.json
+├── exports/training/     # AI-ready exports
+│   ├── instruction-tuning.jsonl
+│   ├── qa-pairs.jsonl
+│   ├── sentiment-dataset.jsonl
+│   ├── embeddings-data.jsonl
+│   └── ner-training.jsonl
+├── index/                # Fast lookups
+│   ├── by-source.json
+│   ├── by-ticker.json
+│   └── by-date.json
+└── meta/
+    ├── schema.json
+    ├── stats.json
+    └── source-stats.json # Reliability scores
+```
+
+### Per-Article Data
+
+Each article is enriched with:
+
+```json
+{
+  "id": "sha256:abc123...",
+  "schema_version": "2.0.0",
+  "title": "Bitcoin Surges Past $100K",
+  "link": "https://...",
+  "description": "...",
+  "source": "CoinDesk",
+  "source_key": "coindesk",
+  "pub_date": "2026-01-11T10:00:00Z",
+  "first_seen": "2026-01-11T10:05:00Z",
+  "last_seen": "2026-01-11T18:05:00Z",
+  "fetch_count": 8,
+  "tickers": ["BTC", "ETH"],
+  "categories": ["market", "bitcoin"],
+  "sentiment": "bullish",
+  "market_context": {
+    "btc_price": 100500,
+    "eth_price": 4200,
+    "fear_greed": 75,
+    "btc_dominance": 52.3
+  }
+}
+```
+
+### Hourly Snapshot Data
+
+Each hour captures:
+
+- **Articles**: Count, sentiment breakdown, top tickers, source distribution
+- **Market**: Top 100 coins, DeFi TVL, yields, stablecoins, trending
+- **On-Chain**: BTC network stats, DEX volumes, bridge activity
+- **Social**: Reddit sentiment, active users, trending topics
+- **Predictions**: Polymarket/Manifold crypto prediction odds
+- **Clustering**: Story clusters, first-movers, coordinated releases
+
+---
+
+## Why This Matters
+
+**Time is our moat.** 
+
+If we capture complete data now with proper structure, in 2 years we'll have something nobody can recreate. The compound value:
+
+- **Year 1**: Interesting dataset
+- **Year 3**: Valuable for research  
+- **Year 5**: Irreplaceable historical record
+- **Year 10**: The definitive source, cited in papers, used by institutions
+
+Every day we delay proper archiving is data lost forever.
 
 ---
 
