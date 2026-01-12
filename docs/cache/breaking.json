@@ -1,6 +1,26 @@
 {
   "articles": [
     {
+      "title": "Coinbase may reconsider support for US market structure bill: Bloomberg",
+      "link": "https://www.theblock.co/post/385028/coinbase-market-structure-bill?utm_source=rss&amp;utm_medium=rss",
+      "description": "Coinbase may withdraw its support from the market structure bill if it imposes broader limits on stablecoin rewards, Bloomberg reported.",
+      "pubDate": "2026-01-12T03:07:01.000Z",
+      "source": "The Block",
+      "sourceKey": "theblock",
+      "category": "general",
+      "timeAgo": "29m ago"
+    },
+    {
+      "title": "Memecoins hit hardest in rough year that saw 11.6M tokens fail",
+      "link": "<![CDATA[https://cointelegraph.com/news/crypto-project-failures-record-2025-memecoin-turbulence?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
+      "description": "Memecoin launchpads such as pump.fun flooded the market in 2025 with millions of “low effort” coins, leading to a record number of crypto token failures.",
+      "pubDate": "2026-01-12T02:49:01.000Z",
+      "source": "CoinTelegraph",
+      "sourceKey": "cointelegraph",
+      "category": "general",
+      "timeAgo": "47m ago"
+    },
+    {
       "title": "Fed’s Powell links DOJ probe to his defiance of Trump on rates",
       "link": "<![CDATA[https://cointelegraph.com/news/fed-powell-says-doj-probe-due-defying-trump-interest-rates?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
       "description": "Federal Reserve Chair Jerome Powell says his refusal to drop interest rates led to Donald Trump opening a criminal investigation over renovations to the central bank’s headquarters.",
@@ -8,7 +28,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "7m ago"
+      "timeAgo": "55m ago"
     },
     {
       "title": "Prediction markets downplay Powell exit risk despite DOJ probe: Asia Morning Briefing",
@@ -18,7 +38,7 @@
       "source": "CoinDesk",
       "sourceKey": "coindesk",
       "category": "general",
-      "timeAgo": "30m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "Coinbase could pull CLARITY Act support over stablecoin rewards ban",
@@ -28,7 +48,7 @@
       "source": "CoinTelegraph",
       "sourceKey": "cointelegraph",
       "category": "general",
-      "timeAgo": "32m ago"
+      "timeAgo": "1h ago"
     },
     {
       "title": "The Funding: Why token buybacks are suddenly back in focus",
@@ -38,26 +58,16 @@
       "source": "The Block",
       "sourceKey": "theblock",
       "category": "general",
-      "timeAgo": "32m ago"
-    },
-    {
-      "title": "X to roll out 'Smart Cashtags' for crypto, stocks next month",
-      "link": "<![CDATA[https://cointelegraph.com/news/x-building-smart-cashtags-tracking-crypto-stock-prices?utm_source=rss_feed&utm_medium=rss&utm_campaign=rss_partner_inbound]]>",
-      "description": "Smart Cashtags will enable users to track real-time price movements of crypto tokens and stocks, building on X’s long-term vision to become an Everything App.",
-      "pubDate": "2026-01-12T00:49:05.000Z",
-      "source": "CoinTelegraph",
-      "sourceKey": "cointelegraph",
-      "category": "general",
       "timeAgo": "1h ago"
     }
   ],
-  "totalCount": 5,
+  "totalCount": 6,
   "sources": [
+    "The Block",
     "CoinTelegraph",
-    "CoinDesk",
-    "The Block"
+    "CoinDesk"
   ],
-  "fetchedAt": "2026-01-12T02:48:41.030Z",
+  "fetchedAt": "2026-01-12T03:37:00.482Z",
   "lang": "en",
   "availableLanguages": [
     "en",
@@ -79,6 +89,6 @@
     "th",
     "id"
   ],
-  "cachedAt": "2026-01-12T02:48:23.000Z",
+  "cachedAt": "2026-01-12T03:36:43.000Z",
   "source": "failsafe-cache"
 }
