@@ -1,23 +1,23 @@
 {
   "version": "2.1.0",
-  "total_articles": 189,
-  "total_fetches": 13,
+  "total_articles": 190,
+  "total_fetches": 14,
   "first_fetch": "2026-01-11T14:11:09.768Z",
-  "last_fetch": "2026-01-12T02:54:47.579Z",
+  "last_fetch": "2026-01-12T03:41:40.163Z",
   "daily_counts": {
     "2026-01-08": 50,
     "2026-01-09": 76,
     "2026-01-10": 22,
     "2026-01-11": 31,
-    "2026-01-12": 10
+    "2026-01-12": 11
   },
   "features_used": {
-    "marketData": 13,
-    "onChain": 13,
-    "social": 13,
-    "predictions": 13,
-    "clustering": 13,
-    "reliability": 13
+    "marketData": 14,
+    "onChain": 14,
+    "social": 14,
+    "predictions": 14,
+    "clustering": 14,
+    "reliability": 14
   },
   "rebuilt_at": "2026-01-11T13:42:03.948Z",
   "total_sources": 6,
@@ -72,10 +72,10 @@
     "dates": 4
   },
   "latest_market": {
-    "btc_price": 92160,
-    "eth_price": 3157.91,
+    "btc_price": 92006,
+    "eth_price": 3155.75,
     "fear_greed": 27,
     "total_tvl": null,
-    "timestamp": "2026-01-12T02:54:42.876Z"
+    "timestamp": "2026-01-12T03:41:35.387Z"
   }
 }
