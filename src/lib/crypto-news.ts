@@ -80,6 +80,33 @@ export interface SourceInfo {
   status: 'active' | 'unavailable';
 }
 
+function cleanCDATA(input: string): string {
+  return input
+    .replace(/<!\[CDATA\[/g, '')
+    .replace(/\]\]>/g, '');
+}
+
+function decodeHtmlEntities(text: string): string {
+  return text
+    .replace(/&#39;/g, "'")
+    .replace(/&quot;/g, '"')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&amp;/g, '&')
+    .replace(/&#(\d+);/g, (_, num) => String.fromCharCode(parseInt(num, 10)))
+    .replace(/&#x([0-9a-fA-F]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)));
+}
+
+function cleanArticleCDATA(article: NewsArticle): NewsArticle {
+  return {
+    ...article,
+    title: cleanCDATA(article.title),
+    link: cleanCDATA(article.link),
+    description: article.description ? cleanCDATA(article.description) : undefined,
+  };
+}
+
 /**
  * Parse RSS XML to extract articles
  */
@@ -88,7 +115,7 @@ function parseRSSFeed(xml: string, sourceKey: string, sourceName: string, catego
   
   const itemRegex = /<item>([\s\S]*?)<\/item>/gi;
   const titleRegex = /<title><!\[CDATA\[(.*?)\]\]>|<title>(.*?)<\/title>/i;
-  const linkRegex = /<link>(.*?)<\/link>|<link><!\[CDATA\[(.*?)\]\]>/i;
+  const linkRegex = /<link>(.*?)<\/link>|<link><!\[CDATA\[([^\]]*)\]\]>/i;
   const descRegex = /<description><!\[CDATA\[([\s\S]*?)\]\]>|<description>([\s\S]*?)<\/description>/i;
   const pubDateRegex = /<pubDate>(.*?)<\/pubDate>/i;
   
@@ -101,14 +128,14 @@ function parseRSSFeed(xml: string, sourceKey: string, sourceName: string, catego
     const descMatch = itemXml.match(descRegex);
     const pubDateMatch = itemXml.match(pubDateRegex);
     
-    const title = (titleMatch?.[1] || titleMatch?.[2] || '').trim();
+    const title = decodeHtmlEntities((titleMatch?.[1] || titleMatch?.[2] || '').trim());
     const link = (linkMatch?.[1] || linkMatch?.[2] || '').trim();
-    const description = sanitizeDescription(descMatch?.[1] || descMatch?.[2] || '');
+    const description = sanitizeDescription(decodeHtmlEntities(descMatch?.[1] || descMatch?.[2] || ''));
     const pubDateStr = pubDateMatch?.[1] || '';
     
     if (title && link) {
       const pubDate = pubDateStr ? new Date(pubDateStr) : new Date();
-      articles.push({
+      const article: NewsArticle = {
         title,
         link,
         description: description || undefined,
@@ -117,7 +144,8 @@ function parseRSSFeed(xml: string, sourceKey: string, sourceName: string, catego
         sourceKey,
         category,
         timeAgo: getTimeAgo(pubDate),
-      });
+      };
+      articles.push(cleanArticleCDATA(article));
     }
   }
   
