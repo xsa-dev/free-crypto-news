@@ -19,7 +19,7 @@ const { getCachedMarketContext } = require('./market-context');
 
 // Configuration
 const ARCHIVE_DIR = process.env.ARCHIVE_DIR || path.join(__dirname, '../../archive');
-const API_URL = process.env.API_URL || 'https://free-crypto-news.vercel.app';
+const API_URL = process.env.API_URL || 'http://localhost:3001';
 
 /**
  * Fetch news from API

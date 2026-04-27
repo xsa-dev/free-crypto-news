@@ -1,0 +1,140 @@
+{
+  "timestamp": "2026-03-19T20:06:30.320Z",
+  "hour": 20,
+  "article_count": 103,
+  "top_articles": [
+    "cee8438400da876d",
+    "b7ca37c2910f8487",
+    "849f5016ad94c800",
+    "a76d0dd65b8e88ea",
+    "fbeb943f64dc0681",
+    "a3287706d0c817fe",
+    "8a14e3ec641e3b26",
+    "5153adb166b0ad9d",
+    "1f1d4b78953fe4f0",
+    "3bdbd9465e5bfbb2",
+    "fe9be13d9bb3a87e",
+    "22e169cf3934de22",
+    "d37cfd25feb8909b",
+    "311cea671a6b4685",
+    "2b77cae3fe09e353",
+    "b58f8a1c190b954a",
+    "e18b199f12411073",
+    "b18f5bc91a95d322",
+    "3666cb8e4f859154",
+    "ebd3f7bf119bdffc",
+    "d0c341f7bf27f503",
+    "5826d8af63c0185c",
+    "8104e51306490864",
+    "b3125ccb003a9900",
+    "458fdcffb7b7b6a2",
+    "c67b9b43f5f67c16",
+    "c3705da5b40049be",
+    "d9df3ca7ae51fa1b",
+    "b8fd6352b2edc750",
+    "f3603331455ae4a6",
+    "52069cd6d47ddc99",
+    "b2c651c6aa4b19fe",
+    "9aba904574210ed7",
+    "3393a33c910caeea",
+    "36899fa718a6df8f",
+    "7bd0815e89deb081",
+    "a1c99e91fa8eb445",
+    "e46b3e918df4498b",
+    "2cfa12318c479bdd",
+    "e1c46840215a27a7",
+    "a21aa469944b6c82",
+    "a935616adb93e532",
+    "ad612932b796eaac",
+    "ff2dd4150adf3ff3",
+    "fc363f670fa5b816",
+    "588841e8a6cbcc61",
+    "fb581c1b60c7f4b2",
+    "e0c6b0537d88ed9e",
+    "e87d39b7978221cd",
+    "ffce62a56cd4b94a"
+  ],
+  "top_tickers": [
+    {
+      "ticker": "BITCOIN",
+      "mention_count": 32
+    },
+    {
+      "ticker": "BTC",
+      "mention_count": 32
+    },
+    {
+      "ticker": "ETH",
+      "mention_count": 7
+    },
+    {
+      "ticker": "ETHEREUM",
+      "mention_count": 7
+    },
+    {
+      "ticker": "NEAR",
+      "mention_count": 5
+    },
+    {
+      "ticker": "FLOW",
+      "mention_count": 3
+    },
+    {
+      "ticker": "RIPPLE",
+      "mention_count": 2
+    },
+    {
+      "ticker": "XRP",
+      "mention_count": 2
+    },
+    {
+      "ticker": "USDT",
+      "mention_count": 2
+    },
+    {
+      "ticker": "MKR",
+      "mention_count": 1
+    },
+    {
+      "ticker": "BASE",
+      "mention_count": 1
+    },
+    {
+      "ticker": "1INCH",
+      "mention_count": 1
+    },
+    {
+      "ticker": "SATS",
+      "mention_count": 1
+    },
+    {
+      "ticker": "USDC",
+      "mention_count": 1
+    },
+    {
+      "ticker": "AAVE",
+      "mention_count": 1
+    },
+    {
+      "ticker": "UNI",
+      "mention_count": 1
+    },
+    {
+      "ticker": "UNISWAP",
+      "mention_count": 1
+    }
+  ],
+  "source_counts": {
+    "theblock": 19,
+    "cointelegraph": 28,
+    "coindesk": 21,
+    "decrypt": 17,
+    "defiant": 10,
+    "bitcoinmagazine": 8
+  },
+  "market_state": {
+    "btc_price": 70267,
+    "eth_price": 2141.79,
+    "fear_greed_index": 23
+  }
+}

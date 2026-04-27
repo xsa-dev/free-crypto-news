@@ -16,7 +16,24 @@ Free Crypto News is a Next.js 16 application providing a 100% free crypto news A
 | `npm run archive:collect` | Collect news data to archive |
 | `npm run archive:stats` | Generate archive statistics |
 
-**Node requirement:** >= 18.0.0
+**Node requirement:** >= 20.9.0
+
+## Docker Commands
+
+| Command | Description |
+|---------|-------------|
+| `docker-compose up -d --build` | Build and start containers (port 3001) |
+| `docker-compose down` | Stop containers |
+| `docker-compose logs -f` | View container logs |
+| `docker-compose restart app` | Restart app container |
+| `docker ps` | List running containers |
+
+**Port:** 3001 (published to host)
+
+**After completing a feature:**
+```bash
+docker-compose up -d --build
+```
 
 ## Code Style Guidelines
 
@@ -95,3 +112,4 @@ export async function GET(request: NextRequest) {
 - `tsconfig.json` excludes: `node_modules`, `sdk`, `mcp`, `examples`
 - Always run `npm run lint` before committing
 - The project uses Tailwind CSS v4 for styling
+- Healthcheck endpoint: `/api/health` (returns service status)

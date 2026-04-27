@@ -1,0 +1,151 @@
+{
+  "timestamp": "2026-02-02T19:32:25.811Z",
+  "hour": 19,
+  "article_count": 102,
+  "top_articles": [
+    "76ceffcc817c78a9",
+    "47cf5d55adafaa70",
+    "458fdcffb7b7b6a2",
+    "731ded739a918d0d",
+    "9142f2d41aa91bcc",
+    "cda45fc5ab8c8fda",
+    "c5ed0eaa477e50bb",
+    "33fb94abc9147ee0",
+    "8e3ec3b55199c6cd",
+    "cc516bf80fca401d",
+    "c80901dd3a3afa82",
+    "dacdf7b2e0735122",
+    "51471d2c6e0ca430",
+    "2e1f82fe540e7e3b",
+    "b1747723edc904ff",
+    "e698275f6e78e9c8",
+    "6c9ceaeb9a538ed7",
+    "49a681f3ba330cda",
+    "5e54a37cc1664341",
+    "518507e5a14abee6",
+    "efaeed05b13ac63e",
+    "3f85509600757463",
+    "5c63d52b1f6fcc3b",
+    "db5725706e44fe28",
+    "deaf53b3863fa68b",
+    "7424cef8cadb3d10",
+    "445cd70c43a7c45b",
+    "136cca6238de8455",
+    "19006d7e01a83c0e",
+    "e2be63368ad9709a",
+    "1855e1c2c23d387a",
+    "60b3bf363213f059",
+    "9f94e0919e977cc9",
+    "0120fe615499b0ef",
+    "b8b59127adacc58f",
+    "cf7a29e78c90ba8c",
+    "e55e79d9a3a918a3",
+    "ce0cb831a532777c",
+    "34eb3f37dfbcf41e",
+    "988b6ec1669a55ae",
+    "6ef4941bd9b59b7b",
+    "03041cbe3e0ec486",
+    "a67eab5b59c7ed93",
+    "191957b0097ca12a",
+    "78cec373df4d99ca",
+    "fb6e98c4c49ab68f",
+    "072b7b138a56d71b",
+    "e7d4f4440e4f29dd",
+    "0a514833ab3b962d",
+    "968da3669d8bd620"
+  ],
+  "top_tickers": [
+    {
+      "ticker": "BITCOIN",
+      "mention_count": 34
+    },
+    {
+      "ticker": "BTC",
+      "mention_count": 34
+    },
+    {
+      "ticker": "ETH",
+      "mention_count": 10
+    },
+    {
+      "ticker": "ETHEREUM",
+      "mention_count": 6
+    },
+    {
+      "ticker": "MKR",
+      "mention_count": 5
+    },
+    {
+      "ticker": "SEI",
+      "mention_count": 2
+    },
+    {
+      "ticker": "BNB",
+      "mention_count": 2
+    },
+    {
+      "ticker": "BASE",
+      "mention_count": 2
+    },
+    {
+      "ticker": "SUI",
+      "mention_count": 1
+    },
+    {
+      "ticker": "DOGE",
+      "mention_count": 1
+    },
+    {
+      "ticker": "DOGECOIN",
+      "mention_count": 1
+    },
+    {
+      "ticker": "OP",
+      "mention_count": 1
+    },
+    {
+      "ticker": "TRX",
+      "mention_count": 1
+    },
+    {
+      "ticker": "ICP",
+      "mention_count": 1
+    },
+    {
+      "ticker": "MATIC",
+      "mention_count": 1
+    },
+    {
+      "ticker": "POLYGON",
+      "mention_count": 1
+    },
+    {
+      "ticker": "COMP",
+      "mention_count": 1
+    },
+    {
+      "ticker": "XRP",
+      "mention_count": 1
+    },
+    {
+      "ticker": "NEAR",
+      "mention_count": 1
+    },
+    {
+      "ticker": "SOL",
+      "mention_count": 1
+    }
+  ],
+  "source_counts": {
+    "coindesk": 25,
+    "cointelegraph": 30,
+    "theblock": 20,
+    "defiant": 17,
+    "bitcoinmagazine": 10
+  },
+  "market_state": {
+    "btc_price": 78375,
+    "eth_price": 2337.86,
+    "fear_greed_index": 14
+  }
+}

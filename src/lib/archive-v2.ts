@@ -422,14 +422,20 @@ export async function getMarketHistory(yearMonth: string): Promise<Array<{
   }
 }
 
+function cleanCDATA(input: string): string {
+  return input
+    .replace(/<!\[CDATA\[/g, '')
+    .replace(/\]\]>/g, '');
+}
+
 /**
  * Convert EnrichedArticle to NewsArticle for backwards compatibility
  */
 export function toNewsArticle(enriched: EnrichedArticle): NewsArticle {
   return {
-    title: enriched.title,
-    link: enriched.link,
-    description: enriched.description,
+    title: cleanCDATA(enriched.title),
+    link: cleanCDATA(enriched.link),
+    description: cleanCDATA(enriched.description),
     pubDate: enriched.pub_date || enriched.first_seen,
     source: enriched.source,
     sourceKey: enriched.source_key,

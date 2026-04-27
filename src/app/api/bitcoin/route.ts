@@ -3,7 +3,7 @@ import { getBitcoinNews } from '@/lib/crypto-news';
 import { translateArticles, isLanguageSupported, SUPPORTED_LANGUAGES } from '@/lib/translate';
 
 export const runtime = 'edge';
-export const revalidate = 300;
+export const revalidate = 3600;
 
 export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams;
@@ -47,7 +47,7 @@ export async function GET(request: NextRequest) {
       },
       {
         headers: {
-          'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600',
+          'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=7200',
           'Access-Control-Allow-Origin': '*',
         },
       }

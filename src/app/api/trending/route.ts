@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getLatestNews } from '@/lib/crypto-news';
 
 export const runtime = 'edge';
-export const revalidate = 300; // 5 minutes
+export const revalidate = 3600; // 1 hour
 
 interface TrendingTopic {
   topic: string;
@@ -108,7 +108,7 @@ export async function GET(request: NextRequest) {
       fetchedAt: new Date().toISOString(),
     }, {
       headers: {
-        'Cache-Control': 'public, s-maxage=300, stale-while-revalidate=600',
+        'Cache-Control': 'public, s-maxage=3600, stale-while-revalidate=7200',
         'Access-Control-Allow-Origin': '*',
       },
     });

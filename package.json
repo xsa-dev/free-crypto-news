@@ -1,5 +1,5 @@
 {
-  "name":  "free-crypto-news",
+  "name": "free-crypto-news",
   "version": "1.0.0",
   "description": "🆓 100% FREE crypto news API.  No API keys.  No rate limits. No BS.",
   "private": true,
@@ -29,13 +29,14 @@
     "rss",
     "aggregator"
   ],
-  "author":  "nirholas",
+  "author": "nirholas",
   "license": "MIT",
   "dependencies": {
+    "free-crypto-news": ".",
     "next": "^16.1.1",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
-    "sanitize-html":  "^2.17.0"
+    "sanitize-html": "^2.17.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.18",
@@ -44,7 +45,7 @@
     "@types/sanitize-html": "^2.13.0",
     "postcss": "^8.4.31",
     "tailwindcss": "^4.1.18",
-    "typescript":  "^5.0.0"
+    "typescript": "^5.0.0"
   },
   "engines": {
     "node": ">=18.0.0"

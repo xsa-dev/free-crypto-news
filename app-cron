@@ -1,0 +1,3 @@
+# Run archive collection every 2 hours
+# Also run once at container startup (see entrypoint.sh)
+0 */2 * * * node /app/scripts/archive/collect.js >> /var/log/archive.log 2>&1

@@ -195,7 +195,7 @@ async function fetchFeed(sourceKey: SourceKey): Promise<NewsArticle[]> {
         'Accept': 'application/rss+xml, application/xml, text/xml',
         'User-Agent': 'FreeCryptoNews/1.0 (github.com/nirholas/free-crypto-news)',
       },
-      next: { revalidate: 300 }, // Cache for 5 minutes
+      next: { revalidate: 3600 }, // Cache for 1 hour
     });
     
     if (!response.ok) {
@@ -265,7 +265,7 @@ export async function getLatestNews(
   source?: string,
   options?: NewsQueryOptions
 ): Promise<NewsResponse> {
-  const normalizedLimit = Math.min(Math.max(1, limit), 50);
+  const normalizedLimit = Math.min(Math.max(1, limit), 100);
   
   let sourceKeys: SourceKey[];
   if (source && source in RSS_SOURCES) {

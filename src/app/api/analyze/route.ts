@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getLatestNews } from '@/lib/crypto-news';
+import { analyzeSentiment } from '@/lib/sentiment';
 
 export const runtime = 'edge';
 export const revalidate = 300;
@@ -23,10 +24,6 @@ const TOPICS = {
   'Memecoins': /memecoin|meme coin|doge|shib|pepe|bonk|wif/i,
 };
 
-// Sentiment analysis
-const BULLISH_WORDS = ['surge', 'soar', 'rally', 'bullish', 'gains', 'ath', 'all-time high', 'pump', 'moon', 'breakthrough', 'adoption', 'approval', 'launch', 'partnership', 'growth', 'record', 'milestone'];
-const BEARISH_WORDS = ['crash', 'plunge', 'bearish', 'dump', 'decline', 'drop', 'low', 'sell-off', 'fear', 'hack', 'exploit', 'lawsuit', 'ban', 'delay', 'reject', 'investigation', 'fraud', 'collapse'];
-
 function classifyTopics(text: string): string[] {
   const topics: string[] = [];
   for (const [topic, pattern] of Object.entries(TOPICS)) {
@@ -35,30 +32,6 @@ function classifyTopics(text: string): string[] {
     }
   }
   return topics.length > 0 ? topics : ['General'];
-}
-
-function analyzeSentiment(text: string): { sentiment: 'bullish' | 'bearish' | 'neutral'; score: number } {
-  const lowerText = text.toLowerCase();
-  let bullishScore = 0;
-  let bearishScore = 0;
-  
-  for (const word of BULLISH_WORDS) {
-    if (lowerText.includes(word)) bullishScore++;
-  }
-  for (const word of BEARISH_WORDS) {
-    if (lowerText.includes(word)) bearishScore++;
-  }
-  
-  const totalScore = bullishScore + bearishScore;
-  if (totalScore === 0) {
-    return { sentiment: 'neutral', score: 0 };
-  }
-  
-  const normalizedScore = (bullishScore - bearishScore) / totalScore;
-  
-  if (normalizedScore > 0.3) return { sentiment: 'bullish', score: normalizedScore };
-  if (normalizedScore < -0.3) return { sentiment: 'bearish', score: normalizedScore };
-  return { sentiment: 'neutral', score: normalizedScore };
 }
 
 export async function GET(request: NextRequest) {
